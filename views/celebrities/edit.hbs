@@ -1,0 +1,29 @@
+<h2>Edit Celebrity</h2>
+
+<form method='POST' action='/celebrities/{{this._id}}'>
+  <label for='name-edit-input'>Title</label>
+  <input
+    id='name-edit-input'
+    type='text'
+    name='name'
+    placeholder='{{this._name}}'
+  />
+
+  <label for='occupation-edit-input'>Occupation</label>
+  <input
+    id='occupation-edit-input'
+    type='text'
+    name='occupation'
+    placeholder='Occupation'
+  />
+
+  <label for='catchPhrase-edit-input'>Catch Phrase</label>
+  <input
+    id='catchPhrase-edit-input'
+    type='text'
+    name='catchPhrase'
+    placeholder='CatchPhrase'
+  />
+
+  <button type='submit'>Edit Celebrity</button>
+</form>'
