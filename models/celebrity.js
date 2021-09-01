@@ -11,8 +11,7 @@ const celebritySchema = new mongoose.Schema({
   },
 
   catchPhrase: {
-    type: String,
-    maxlength: 120
+    type: String
   }
 });
 
